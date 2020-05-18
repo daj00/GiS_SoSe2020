@@ -4,9 +4,43 @@ body {
 
 h1 { 
     color: whitesmoke; 
-    text-align: center;
+    margin-left: 680px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    padding: 20px;
+}
+h2 { 
+    color: whitesmoke; 
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 120px;
+    margin-left: 700px;
 }
 
 p { font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    
+}
+
+.menu {
+    margin-left: 1800px;
+}
+#kicken {
+    margin-left: 700px;
+}
+#Mutmacher {
+    margin-left: 700px; 
+}
+#song {
+    margin-left:650px;
+    padding: 50px; 
+}
+#LiveGitarre {
+    margin-left: 700px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 700px;
 }
