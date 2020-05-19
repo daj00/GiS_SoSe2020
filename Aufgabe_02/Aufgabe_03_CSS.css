@@ -1,46 +1,113 @@
 body { 
-    background-color: lightcoral;
+   
+    background-image: url(https://gabriel-rausch.github.io/EIA1-SoSe20/L03/task_material/images/bg.png);
+    text-align: center;
+
 }
 
 h1 { 
+    background-color: lightcoral;
     color: whitesmoke; 
-    margin-left: 680px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 72px;
-    padding: 20px;
+    padding: 0px;
+    
+}
+#Portfolio  { 
+    background-color: lightcoral;
+    color: whitesmoke; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    padding: 0px; 
 }
 h2 { 
+    width: 200px;
+    background-color: lightcoral;
     color: whitesmoke; 
-
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: 120px;
-    margin-left: 700px;
+    margin-left: 695px;
+    
+    
 }
 
 p { font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     
 }
-
 .menu {
-    margin-left: 1800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    position: fixed;
+    top: 0px;
+    left: 70%;
+    background-color: lightcoral;
+    
 }
-#kicken {
-    margin-left: 700px;
+.menu a {
+    text-decoration: none;
+    color: mintcream;
 }
-#Mutmacher {
-    margin-left: 700px; 
+
+.menu a:hover{
+    background-color: mintcream;
+    color: orange;
+ 
 }
 #song {
-    margin-left:650px;
+    
     padding: 50px; 
 }
-#LiveGitarre {
-    margin-left: 700px;
-}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: black;
-    margin-left: 700px;
+   
+}
+  
+.main-content {
+    width: 800px;
+}
+.formular {
+    display: flex;
+    justify-content: center;
+    background-color: lightcoral;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 50px;
+    padding: 10px;
+}
+.textfeld {
+    width: 300px;
+    padding: 10px;
+}
+#Gitarre_Elena {
+    padding-right: 40px;
+    left: 70%;
+    border-color: skyblue;
+    border-width: 10px;
+}
+.SNS  {
+    
+    margin-top: 10px;
+    background-color: lightcoral;
+    padding: 10px;
+}
+#lyrik {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+#kicken {
+    justify-content: center;
+    text-align: center;
+}
+.unterpunkte {
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 695px;
+}
+#musik {
+    margin-top: 50px;
 }
