@@ -64,7 +64,7 @@ h1 {
     text-align: center;
     position: relative;
     width: 40%;
-    margin-left: 600;
+    margin-left: 500;
     margin-right: auto;
 }
 .menu {
@@ -135,7 +135,7 @@ h1 {
 header nav {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -98;
-    margin-left: 705;
+    margin-left: 605;
     font-size: 24;
     border-radius: 2;
 
@@ -160,7 +160,7 @@ nav a:hover {
 .warenkorb {
     width: 40;
     padding: -50;
-    margin-left: 1850;
+    margin-left: 1200;
     margin-top: -36;
 }
 
@@ -440,7 +440,7 @@ footer {
     margin-bottom: -50;
 }
 }
-@media screen and (max-width: 812px){ /*iPhone Version*/
+@media screen and (max-width: 600px){ /*iPhone Version*/
     header {
         border:5px solid black;
         display: block;
@@ -502,7 +502,7 @@ footer {
         margin-right: auto;
         padding-top: -50px;
         margin-bottom: 5px;
-        margin-top: 5px;
+        margin-top: 50px;
         display: block;
         border: black;
         border: solid gray;
@@ -564,11 +564,12 @@ footer {
     }
     header nav {
         font-family: Arial, Helvetica, sans-serif;
-        margin-top: -29;
-        margin-left: 380;
-        font-size: 16;
+        margin-top: -10;
+        margin-left: 30;
+        font-size: 20;
         border: white;
         border-radius: 2;
+        padding: 20;
     
     }
     header nav a {
@@ -591,19 +592,19 @@ footer {
     .warenkorb {
         width: 40;
         padding: -50;
-        margin-left: 720;
-        margin-top: -36;
+        margin-left: 450;
+        margin-top: -100;
     }
     
     .artikel {
-        margin-top: -10;
+        margin-top: 10;
         width: 110%;
         margin-left: -50;
     
     }
     .instrumente {
         font-family: Arial, Helvetica, sans-serif;
-        margin-left: 100;
+        margin-left: 105;
         margin-top: 30;
         background-color: blanchedalmond;
         border: gray;
@@ -649,8 +650,8 @@ footer {
         height: 150;
         width: 100;
         font-family: Arial, Helvetica, sans-serif;
-        padding-top: 780;
-        margin-left: 340;
+        margin-left: 250;
+        margin-top: -800;
     }
     .probe { 
         margin-top: 10;
