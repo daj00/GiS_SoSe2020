@@ -134,9 +134,9 @@ h1 {
 }
 header nav {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: -85;
+    margin-top: -98;
     margin-left: 705;
-    font-size: 16;
+    font-size: 24;
     border-radius: 2;
 
 }
@@ -245,6 +245,7 @@ body {
 body header {
     position: relative;
     width: 105%;
+    height: 250;
     background-image: url(Header1.jpg);
     background-repeat: no-repeat;  
     margin-left: auto;
@@ -258,10 +259,12 @@ main {
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: white;
-    margin-left: 300px;
+    margin-left: 600px;
     padding: -100px;
 
 }
+
+
 #startseite {
     margin-top: -130;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -277,15 +280,16 @@ h1 {
     text-align: center;
     position: relative;
     width: 40%;
-    margin-left: 600;
+    margin-left: 100;
     margin-right: auto;
+    margin-top: -50;
 }
 .menu {
     margin-left: auto;
     margin-right: auto;
-    padding-top: -50px;
+    padding-top: 0px;
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 100px;
     display: block;
     border: black;
     border: solid gray;
@@ -344,8 +348,8 @@ h1 {
 }
 header nav {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: -50;
-    margin-left: 705;
+    margin-top: -95;
+    margin-left: 450;
     font-size: 16;
     border: white;
     border-radius: 2;
@@ -369,37 +373,36 @@ nav a:hover {
 }
 
 .warenkorb {
-    width: 40;
+    width: 30;
     padding: -50;
-    margin-left: 1850;
-    margin-top: -36;
+    margin-left: 800;
+    margin-top: -30;
 }
 
 .artikel {
     
     width: 110%;
-    margin-left: -50;
+    margin-top: 70;
 
 }
 .instrumente {
     font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    padding: 40;
-    margin-left: 160;
-    margin-top: 70;
+    margin-left: 200;
+    margin-top: 30;
     background-color: blanchedalmond;
     border: gray;
-    padding: 50;
+    padding: 40;
     
 }
 h3 {
     font-weight: bold;
     font-size: 24;
     margin: -20;
+    
 }
 h4 {
     font-size: 14;
-    padding-top: 0;
+    padding-top: 15;
     margin-left: -18;
     font-weight: lighter;
 }
@@ -429,7 +432,7 @@ button {
 footer {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-    padding-top: 500;
+    padding-top: 830;
     padding-left: 10;
 }
 .probe { 
@@ -470,12 +473,14 @@ footer {
     h1 {
         font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
         color: white;
-        margin-left: 300px;
+        margin-left: 270px;
         padding: -100px;
+        
     
     }
     #startseite {
-        margin-top: -130;
+        margin-top: -70;
+        margin-left: 50;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-shadow:3px 2px black;
     }
@@ -489,7 +494,7 @@ footer {
         text-align: center;
         position: relative;
         width: 40%;
-        margin-left: 600;
+        margin-left: 0;
         margin-right: auto;
     }
     .menu {
@@ -524,10 +529,10 @@ footer {
     }
     .text {
         color: black;
-        font-size: 36px;
+        font-size: 24px;
         position: absolute;
         margin-left: -50px;
-        top: 50%;
+        top: 40%;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
@@ -552,14 +557,15 @@ footer {
         -webkit-transition: opacity .30s ease-in-out;
     }
     .logo {
-        height: 400px;
+        height: 270px;
         padding: -200;
         margin-top: -50;
+        margin-bottom: 50;
     }
     header nav {
         font-family: Arial, Helvetica, sans-serif;
-        margin-top: -50;
-        margin-left: 705;
+        margin-top: -29;
+        margin-left: 380;
         font-size: 16;
         border: white;
         border-radius: 2;
@@ -585,7 +591,7 @@ footer {
     .warenkorb {
         width: 40;
         padding: -50;
-        margin-left: 1850;
+        margin-left: 720;
         margin-top: -36;
     }
     
@@ -597,13 +603,11 @@ footer {
     }
     .instrumente {
         font-family: Arial, Helvetica, sans-serif;
-        float: left;
-        padding: 40;
-        margin-left: 160;
-        margin-top: 70;
+        margin-left: 100;
+        margin-top: 30;
         background-color: blanchedalmond;
         border: gray;
-        padding: 50;
+        padding: 40;
         
     }
     h3 {
@@ -615,6 +619,7 @@ footer {
         font-size: 14;
         padding-top: 0;
         margin-left: -18;
+        margin-top: 15;
         font-weight: lighter;
     }
     p { 
@@ -641,10 +646,11 @@ footer {
         margin-bottom: -30;
     }
     footer {
+        height: 150;
+        width: 100;
         font-family: Arial, Helvetica, sans-serif;
-        margin: auto;
-        padding-top: 500;
-        padding-left: 10;
+        padding-top: 780;
+        margin-left: 340;
     }
     .probe { 
         margin-top: 10;
