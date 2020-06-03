@@ -3,16 +3,16 @@ var beats;
 (function (beats_1) {
     //Beats Artikel
     let op = {
-        img: "OP_Beats.jpg", name: "OP BEATS", description: "Slow Rap/Trap", preis: "14,99€"
+        img: "OP_Beats.JPG", name: "OP BEATS", description: "Slow Rap/Trap", preis: "14,99€"
     };
     let ryini = {
-        img: "ryini.jpg", name: "RYINI BEATS", description: "Spanish Flamenco", preis: "21,99€"
+        img: "ryini.JPG", name: "RYINI BEATS", description: "Spanish Flamenco", preis: "21,99€"
     };
     let kazzlo = {
-        img: "kazzlo.jpg", name: "KAZZLO BEATS", description: "Alternative Rock", preis: "7,99€"
+        img: "kazzlo.JPG", name: "KAZZLO BEATS", description: "Alternative Rock", preis: "7,99€"
     };
     let hardcore = {
-        img: "hardcore.jpg", name: "DJ RADPUFFLE", description: "Aua für die Ohren", preis: "16,99€"
+        img: "hardcore.JPG", name: "DJ RADPUFFLE", description: "Aua für die Ohren", preis: "16,99€"
     };
     //Artikel in Array
     let beats = [op, ryini, kazzlo, hardcore];
