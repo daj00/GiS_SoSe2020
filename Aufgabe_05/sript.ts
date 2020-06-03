@@ -1,3 +1,4 @@
+namespace instr { 
 //Interface Instrumente
 interface Instrumente {
     img: string;
@@ -11,7 +12,7 @@ let gitarre: Instrumente = {
     img: "strat.jpg", name: "FENDER E-GITARRE", description: "American Ultra Telecaster", preis: "350,00€" 
 };
 let bass: Instrumente = { 
-    img: "fender_bass.jpg", name: "FENDER E-BASS", description: "New Postmodern JRN Bass F3TSB", preis: "4.199,00€" 
+    img: "fender_bass.jpg", name: "FENDER E-BASS", description: "JRN Bass F3TSB", preis: "4.199,00€" 
 };
 let stagepiano: Instrumente = { 
     img: "Kawai.jpg", name: "KAWAI STAGEPIANO", description: "MP-7 SE", preis: "1.359,00€" 
@@ -28,7 +29,7 @@ for (let index: number = 0; index < instrumente.length; index++) {
     //DIV GEN
     let newDiv: HTMLDivElement = document.createElement("div");
     newDiv.id = "divNr" + index;
-    document.getElementById("flexID")?.appendChild(newDiv);
+    document.getElementById("beats")?.appendChild(newDiv);
 
     //IMG IN DIV 
     let imgElement: HTMLImageElement = document.createElement("img");
@@ -47,7 +48,15 @@ for (let index: number = 0; index < instrumente.length; index++) {
 
     //BUTTON
     let kaufen: HTMLButtonElement = document.createElement("button");
-    kaufen.innerHTML = "kaufen";
+    kaufen.innerHTML = "In den Warenkorb";
     document.getElementById("divNr" + index)?.appendChild(kaufen);
+
+    //PREIS
+    let price: HTMLParagraphElement = document.createElement("p");
+    namePrice.innerHTML = instrumente[index].preis;
+    document.getElementById("divNr" + index)?.appendChild(price);
+
+    
+}
 }
 
