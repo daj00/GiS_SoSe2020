@@ -17,23 +17,23 @@ let instrumente = [gitarre, bass, stagepiano, drumset];
 for (let index = 0; index < instrumente.length; index++) {
     //DIV GEN
     let newDiv = document.createElement("div");
-    newDiv.id = "divNr" + index;
-    document.getElementById("flexID")?.appendChild(newDiv);
+    newDiv.id = "instrumente" + index;
+    document.getElementById("instrumente")?.appendChild(newDiv);
     //IMG IN DIV 
     let imgElement = document.createElement("img");
     imgElement.src = instrumente[index].img;
-    document.getElementById("divNr" + index)?.appendChild(imgElement);
+    document.getElementById("instrumente" + index)?.appendChild(imgElement);
     //NAME/PREIS
     let namePrice = document.createElement("p");
     namePrice.innerHTML = instrumente[index].name;
-    document.getElementById("divNr" + index)?.appendChild(namePrice);
+    document.getElementById("instrumente" + index)?.appendChild(namePrice);
     //BESCHREIBUNG
     let desc = document.createElement("p");
     desc.innerHTML = instrumente[index].description;
-    document.getElementById("divNr" + index)?.appendChild(desc);
+    document.getElementById("instrumente" + index)?.appendChild(desc);
     //BUTTON
     let kaufen = document.createElement("button");
     kaufen.innerHTML = "kaufen";
-    document.getElementById("divNr" + index)?.appendChild(kaufen);
+    document.getElementById("instrumente" + index)?.appendChild(kaufen);
 }
 //# sourceMappingURL=sript.js.map
