@@ -9,7 +9,7 @@ interface Instrumente {
 
 //Instrumente Artikel
 let gitarre: Instrumente = { 
-    img: "strat.jpg", name: "FENDER E-GITARRE", description: "American Ultra Telecaster", preis: "350,00€" 
+    img: "Strat.jpg", name: "FENDER E-GITARRE", description: "American Ultra Telecaster", preis: "350,00€" 
 };
 let bass: Instrumente = { 
     img: "fender_bass.jpg", name: "FENDER E-BASS", description: "JRN Bass F3TSB", preis: "4.199,00€" 
