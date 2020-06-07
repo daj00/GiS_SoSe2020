@@ -59,6 +59,7 @@ for (let index: number = 0; index < instrumente.length; index++) {
 }
     
 // wird aufgerufen bei Klick auf Button.
+let summe: number = 0;
 function handleClick(): void { 
                 
 
@@ -90,7 +91,7 @@ function handleClick(): void {
 // Zahl erhoehen bei Klick im Warenkorb AB HIER: NOCH NICHT FERTIG
 
 
-                let summe: number = 0;
+                
 // Preis wird zusammengerechnet               
                 for (let index: number = 0; index < zaehler; index++) { 
                     summe = summe + zaehler[index];

@@ -44,6 +44,7 @@ var instr;
         kaufen.addEventListener("click", handleClick);
     }
     // wird aufgerufen bei Klick auf Button.
+    let summe = 0;
     function handleClick() {
         // Div fuer Kreis am Warenkorb
         /*let zaehlerDiv: HTMLElement = document.createElement("div");
@@ -67,7 +68,6 @@ var instr;
         zaehler = zaehler + 1;
         document.querySelector("#zahl").innerHTML = String(zaehler);
         // Zahl erhoehen bei Klick im Warenkorb AB HIER: NOCH NICHT FERTIG
-        let summe = 0;
         // Preis wird zusammengerechnet               
         for (let index = 0; index < zaehler; index++) {
             summe = summe + zaehler[index];
